@@ -12,9 +12,9 @@
 </head>
 <body>
   <!-- Section 1 -->
-  <div class="pt-8 pb-40 px-20 bg-gradient-to-r from-black">
+  <div class="pt-8 pb-44 px-32 relative" style="background-image: url('assets/images/bg-image.png');">
     <!-- Navbar -->
-    <div class="p-7 bg-black rounded-20 flex items-center justify-between">
+    <div class=" bg-black p-7 rounded-20 relative z-10 flex items-center justify-between">
       <!-- Logo -->
       <div class="flex items-center gap-2">
         <img src="/assets/icons/logo.svg" alt="logo" class="w-9 h-9" />
@@ -41,8 +41,10 @@
     </div>
     <!-- End Navbar -->
 
+    <div class="bg-gradient-to-r from-black w-full h-full absolute left-0 top-0 z-0"></div>
+
     <!-- Content -->
-    <div class="mt-24">
+    <div class="mt-24 relative z-10">
       <h1 class="text-white text-5xl font-extrabold max-w-[555px]" style="line-height: 70px;">Find Glorious Living And Loving Space</h1>
       <p class="mt-5 text-white text-lg font-normal max-w-[400px] leading-relaxed">Dolor house comfortable si amet with cheap price that also lorem when you need grow.</p>
       <form class="mt-12">
@@ -55,7 +57,7 @@
   <!-- End Section 1 -->
 
   <!-- Section 2 -->
-  <div class="bg-black px-20 relative">
+  <div class="bg-black px-32 relative">
     <div class="absolute left-0 -top-16 w-full px-20">
       <!-- Counter -->
       <div class="bg-black rounded-20 py-7 px-12 flex items-center justify-around">
@@ -522,9 +524,9 @@
     <div class="py-24 flex justify-between items-center gap-5">
       <!-- Left section -->
       <div class="w-1/3">
-        <h2 class="text-3xl font-bold text-white leading-45 mb-7">Huge Benefits That <br/>Make You Feel Happier</h2>
+        <h2 class="text-3xl font-bold text-white leading-45 mb-10">Huge Benefits That <br/>Make You Feel Happier</h2>
         <!-- List Benefit -->
-        <div class="flex flex-col gap-4 mb-7">
+        <div class="flex flex-col gap-5 mb-10">
           <div class="flex items-center gap-2">
             <img src="/assets/icons/ic-check.svg" alt="ic-check" class="h-8 w-8" />
             <span class="font-semibold text-lg text-white">Checking faster without depositing</span>
@@ -560,10 +562,11 @@
       <!-- End Left Section -->
 
       <!-- Right Section -->
-      <div class="w-3/4 grid grid-cols-3 gap-5">
+      <div class="w-3/4 grid grid-cols-2 gap-7">
         <!-- Card -->
-        <div class="h-[200px] rounded-20 relative bg-gradient-to-b from-black2">
-          <div class="w-full absolute bottom-0 p-5">
+        <div class="h-[250px] rounded-20 relative overflow-hidden">
+          <img src="/assets/images/image-benefit-1.png" class="w-full h-full absolute top-0 left-0" />
+          <div class="w-full absolute bottom-0 p-5 bg-gradient-to-t from-black2">
             <div class="flex justify-between items-center">
               <h3 class="text-xl font-bold text-white max-w-48">House for Office and Living</h3>
               <div class="flex items-center gap-1">
@@ -576,13 +579,14 @@
         <!-- End Card -->
 
          <!-- Card -->
-         <div class="h-[200px] rounded-20 relative bg-gradient-to-b from-black2">
-          <div class="w-full absolute bottom-0 p-5">
+         <div class="h-[250px] rounded-20 relative overflow-hidden">
+          <img src="/assets/images/image-benefit-2.png" class="w-full h-full absolute top-0 left-0" />
+          <div class="w-full absolute bottom-0 p-5 bg-gradient-to-t from-black2">
             <div class="flex justify-between items-center">
-              <h3 class="text-xl font-bold text-white max-w-48">House Nearby with Mall</h3>
+              <h3 class="text-xl font-bold text-white max-w-48">House nearby with mall</h3>
               <div class="flex items-center gap-1">
                 <img src="/assets/icons/ic-profile-outline.svg" alt="icon-profile" />
-                <span class="text-white text-sm">10,230</span>
+                <span class="text-white text-sm">18,234</span>
               </div>
             </div>
           </div>
@@ -590,13 +594,14 @@
         <!-- End Card -->
 
         <!-- Card -->
-        <div class="h-[200px] rounded-20 relative bg-gradient-to-b from-black2">
-          <div class="w-full absolute bottom-0 p-5">
+        <div class="h-[250px] rounded-20 relative overflow-hidden">
+          <img src="/assets/images/image-benefit-3.png" class="w-full h-full absolute top-0 left-0" />
+          <div class="w-full absolute bottom-0 p-5 bg-gradient-to-t from-black2">
             <div class="flex justify-between items-center">
               <h3 class="text-xl font-bold text-white max-w-48">House Historical Building</h3>
               <div class="flex items-center gap-1">
                 <img src="/assets/icons/ic-profile-outline.svg" alt="icon-profile" />
-                <span class="text-white text-sm">1,202</span>
+                <span class="text-white text-sm">18,234</span>
               </div>
             </div>
           </div>
@@ -604,41 +609,14 @@
         <!-- End Card -->
 
         <!-- Card -->
-        <div class="h-[200px] rounded-20 relative bg-gradient-to-b from-black2">
-          <div class="w-full absolute bottom-0 p-5">
+        <div class="h-[250px] rounded-20 relative overflow-hidden">
+          <img src="/assets/images/image-benefit-4.png" class="w-full h-full absolute top-0 left-0" />
+          <div class="w-full absolute bottom-0 p-5 bg-gradient-to-t from-black2">
             <div class="flex justify-between items-center">
               <h3 class="text-xl font-bold text-white max-w-48">Landed House with Park</h3>
               <div class="flex items-center gap-1">
                 <img src="/assets/icons/ic-profile-outline.svg" alt="icon-profile" />
-                <span class="text-white text-sm">7,039</span>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- End Card -->
-
-        <!-- Card -->
-        <div class="h-[200px] rounded-20 relative bg-gradient-to-b from-black2">
-          <div class="w-full absolute bottom-0 p-5">
-            <div class="flex justify-between items-center">
-              <h3 class="text-xl font-bold text-white max-w-48">Landed House with Park</h3>
-              <div class="flex items-center gap-1">
-                <img src="/assets/icons/ic-profile-outline.svg" alt="icon-profile" />
-                <span class="text-white text-sm">7,039</span>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- End Card -->
-
-        <!-- Card -->
-        <div class="h-[200px] rounded-20 relative bg-gradient-to-b from-black2">
-          <div class="w-full absolute bottom-0 p-5">
-            <div class="flex justify-between items-center">
-              <h3 class="text-xl font-bold text-white max-w-48">Landed House with Park</h3>
-              <div class="flex items-center gap-1">
-                <img src="/assets/icons/ic-profile-outline.svg" alt="icon-profile" />
-                <span class="text-white text-sm">7,039</span>
+                <span class="text-white text-sm">18,234</span>
               </div>
             </div>
           </div>
@@ -675,8 +653,8 @@
           <p class="text-lg mb-5 text-white">I was not so sure if there was a beautiful bedroom, but it was really great experience.</p>
           <!-- End Review -->
           <!-- User Information -->
-          <div class="flex items-center gap-2">
-            <div class="w-20 h-20"></div>
+          <div class="flex items-center gap-3">
+            <img src="/assets/images/image-profile-review.png" class="w-12 h-12 rounded-full" />
             <div>
               <h3 class="text-lg font-semibold text-white">Evelin Bie</h3>
               <span class="text-sm text-slate">Full-Time Traveler</span>
@@ -701,8 +679,8 @@
           <p class="text-lg mb-5 text-white">Price was too low yet luxury.</p>
           <!-- End Review -->
           <!-- User Information -->
-          <div class="flex items-center gap-2">
-            <div class="w-20 h-20"></div>
+          <div class="flex items-center gap-3">
+            <img src="/assets/images/image-profile-review.png" class="w-12 h-12 rounded-full" />
             <div>
               <h3 class="text-lg font-semibold text-white">Evelin Bie</h3>
               <span class="text-sm text-slate">Full-Time Traveler</span>
@@ -726,9 +704,10 @@
           <!-- Review -->
           <p class="text-lg mb-5 text-white">It’s just amazing, will be back.</p>
           <!-- End Review -->
+         
           <!-- User Information -->
-          <div class="flex items-center gap-2">
-            <div class="w-20 h-20"></div>
+          <div class="flex items-center gap-3">
+            <img src="/assets/images/image-profile-review.png" class="w-12 h-12 rounded-full" />
             <div>
               <h3 class="text-lg font-semibold text-white">Evelin Bie</h3>
               <span class="text-sm text-slate">Full-Time Traveler</span>
@@ -752,9 +731,10 @@
           <!-- Review -->
           <p class="text-lg mb-5 text-white">I was not so sure if there was a beautiful bedroom, but it was really great experience.</p>
           <!-- End Review -->
+
           <!-- User Information -->
-          <div class="flex items-center gap-2">
-            <div class="w-20 h-20"></div>
+          <div class="flex items-center gap-3">
+            <img src="/assets/images/image-profile-review.png" class="w-12 h-12 rounded-full" />
             <div>
               <h3 class="text-lg font-semibold text-white">Evelin Bie</h3>
               <span class="text-sm text-slate">Full-Time Traveler</span>
@@ -778,9 +758,10 @@
           <!-- Review -->
           <p class="text-lg mb-5 text-white">Price was too low yet luxury.</p>
           <!-- End Review -->
+
           <!-- User Information -->
-          <div class="flex items-center gap-2">
-            <div class="w-20 h-20"></div>
+          <div class="flex items-center gap-3">
+            <img src="/assets/images/image-profile-review.png" class="w-12 h-12 rounded-full" />
             <div>
               <h3 class="text-lg font-semibold text-white">Evelin Bie</h3>
               <span class="text-sm text-slate">Full-Time Traveler</span>
@@ -804,9 +785,10 @@
           <!-- Review -->
           <p class="text-lg mb-5 text-white">It’s just amazing, will be back. Price was too low yet luxury. I was not so sure if there was a beautiful bedroom, but it was really great experience.</p>
           <!-- End Review -->
+          
           <!-- User Information -->
-          <div class="flex items-center gap-2">
-            <div class="w-20 h-20"></div>
+          <div class="flex items-center gap-3">
+            <img src="/assets/images/image-profile-review.png" class="w-12 h-12 rounded-full" />
             <div>
               <h3 class="text-lg font-semibold text-white">Evelin Bie</h3>
               <span class="text-sm text-slate">Full-Time Traveler</span>
@@ -830,9 +812,10 @@
           <!-- Review -->
           <p class="text-lg mb-5 text-white">Lorem ipsum dolor, ispum dolor It’s just amazing, will be back. Price was too low yet luxury. I was not so sure if there was a beautiful bedroom, but it was really great experience.</p>
           <!-- End Review -->
+          
           <!-- User Information -->
-          <div class="flex items-center gap-2">
-            <div class="w-20 h-20"></div>
+          <div class="flex items-center gap-3">
+            <img src="/assets/images/image-profile-review.png" class="w-12 h-12 rounded-full" />
             <div>
               <h3 class="text-lg font-semibold text-white">Evelin Bie</h3>
               <span class="text-sm text-slate">Full-Time Traveler</span>
@@ -856,9 +839,10 @@
           <!-- Review -->
           <p class="text-lg mb-5 text-white">Price was too low yet luxury.</p>
           <!-- End Review -->
+          
           <!-- User Information -->
-          <div class="flex items-center gap-2">
-            <div class="w-20 h-20"></div>
+          <div class="flex items-center gap-3">
+            <img src="/assets/images/image-profile-review.png" class="w-12 h-12 rounded-full" />
             <div>
               <h3 class="text-lg font-semibold text-white">Evelin Bie</h3>
               <span class="text-sm text-slate">Full-Time Traveler</span>
@@ -882,9 +866,10 @@
           <!-- Review -->
           <p class="text-lg mb-5 text-white">Price was too low yet luxury.</p>
           <!-- End Review -->
+          
           <!-- User Information -->
-          <div class="flex items-center gap-2">
-            <div class="w-20 h-20"></div>
+          <div class="flex items-center gap-3">
+            <img src="/assets/images/image-profile-review.png" class="w-12 h-12 rounded-full" />
             <div>
               <h3 class="text-lg font-semibold text-white">Evelin Bie</h3>
               <span class="text-sm text-slate">Full-Time Traveler</span>
@@ -901,7 +886,7 @@
   <!-- End Section 2 -->
 
    <!-- Footer -->
-   <div class="bg-black2 p-24">
+   <div class="bg-black2 py-24 px-32">
     <div class="grid grid-cols-4">
       <!-- Solutions -->
       <div class="flex flex-col gap-3">
